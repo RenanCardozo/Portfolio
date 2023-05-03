@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://RenanCardozo.github.io/Portfolio/"
+  "homepage": "https://RenanCardozo.github.io/Portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
