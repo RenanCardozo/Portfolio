@@ -2,8 +2,6 @@ import React, { useRef, useEffect } from "react";
 import Typed from "typed.js";
 import "./Profile.css";
 
-import ParticleBackground from "../../assets/particles/ParticleBackground";
-
 export default function Profile() {
   const typedJSRef = useRef(null);
 
