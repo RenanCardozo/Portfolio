@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/%E2%80%9Chttp://www.renan-cardozo.com/static/css/main.659c7b1e.css",
+    "main.js": "/%E2%80%9Chttp://www.renan-cardozo.com/static/js/main.a0a656a9.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/%E2%80%9Chttp://www.renan-cardozo.com/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/realTalk.png": "/%E2%80%9Chttp://www.renan-cardozo.com/static/media/realTalk.8fa444b18012a26ad756.png",
+    "static/media/me.png": "/%E2%80%9Chttp://www.renan-cardozo.com/static/media/me.cabed2d2c8cb2b560e48.png",
+    "static/media/mernSocialMedia.png": "/%E2%80%9Chttp://www.renan-cardozo.com/static/media/mernSocialMedia.f36bd766f31453da07f5.png",
+    "static/media/Poppins-Thin.ttf": "/%E2%80%9Chttp://www.renan-cardozo.com/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/%E2%80%9Chttp://www.renan-cardozo.com/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/%E2%80%9Chttp://www.renan-cardozo.com/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/%E2%80%9Chttp://www.renan-cardozo.com/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/%E2%80%9Chttp://www.renan-cardozo.com/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/%E2%80%9Chttp://www.renan-cardozo.com/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/%E2%80%9Chttp://www.renan-cardozo.com/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "index.html": "/%E2%80%9Chttp://www.renan-cardozo.com/index.html",
+    "main.659c7b1e.css.map": "/%E2%80%9Chttp://www.renan-cardozo.com/static/css/main.659c7b1e.css.map",
+    "main.a0a656a9.js.map": "/%E2%80%9Chttp://www.renan-cardozo.com/static/js/main.a0a656a9.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/%E2%80%9Chttp://www.renan-cardozo.com/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.659c7b1e.css",
+    "static/js/main.a0a656a9.js"
+  ]
+}
