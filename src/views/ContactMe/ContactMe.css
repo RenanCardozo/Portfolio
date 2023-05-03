@@ -121,7 +121,10 @@ button .load img {
     flex: 0.9;
   }
 }
-
+.contact-btn:hover {
+  background-color: #fff;
+  color: #1f2235;
+}
 .email-sent-message {
   color: #fff;
   font-size: 24px;

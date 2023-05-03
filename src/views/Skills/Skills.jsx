@@ -60,7 +60,7 @@ const skillsData = [
 const categories = [
   { id: 1, title: "Languages", category: "Language" },
   { id: 2, title: "Frameworks / Libraries", category: "Framework" },
-  { id: 3, title: "Databases", category: "Database" },
+  { id: 3, title: "Databases / Tools", category: "Database" },
   { id: 6, title: "Tools", category: "Tool" },
 ];
   

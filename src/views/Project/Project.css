@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   margin: 0 auto 5rem;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .project-item.right {
@@ -32,7 +32,7 @@
 
 .project-image img {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   height: auto;
   object-fit: cover;
   border-radius: 5px;

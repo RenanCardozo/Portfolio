@@ -68,7 +68,7 @@ export default function ContactMe(props) {
               />
 
               <div className="send-btn">
-                <button type="submit">
+                <button type="submit" className="contact-btn">
                   send
                   <i className="fa fa-paper-plane" />
                 </button>
