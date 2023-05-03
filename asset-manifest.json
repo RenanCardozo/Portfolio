@@ -1,25 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f6d2e4f5.css",
+    "main.css": "/static/css/main.e33dae27.css",
     "main.js": "/static/js/main.7e60a0e0.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/realTalk.png": "/static/media/realTalk.8fa444b18012a26ad756.png",
     "static/media/me.png": "/static/media/me.cabed2d2c8cb2b560e48.png",
     "static/media/mernSocialMedia.png": "/static/media/mernSocialMedia.f36bd766f31453da07f5.png",
-    "static/media/Poppins-Thin.ttf": "/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
-    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
-    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
-    "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
-    "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
-    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
-    "static/media/Poppins-ExtraBold.ttf": "/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "index.html": "/index.html",
-    "main.f6d2e4f5.css.map": "/static/css/main.f6d2e4f5.css.map",
+    "main.e33dae27.css.map": "/static/css/main.e33dae27.css.map",
     "main.7e60a0e0.js.map": "/static/js/main.7e60a0e0.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6d2e4f5.css",
+    "static/css/main.e33dae27.css",
     "static/js/main.7e60a0e0.js"
   ]
 }
