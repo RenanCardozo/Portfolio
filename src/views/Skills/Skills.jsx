@@ -55,7 +55,7 @@ const skillsData = [
 
   return (
     <section className="skills-section">
-      <ScreenHeading title={"Skills"} subHeading={"Some of the skills I'v learned"}/>
+      <ScreenHeading title={"Skills"} subHeading={"Some of the skills I've learned"}/>
       <ul className="skills-list">
         {skillsData.map((skill) => (
           <li key={skill.id} className="skill-item">

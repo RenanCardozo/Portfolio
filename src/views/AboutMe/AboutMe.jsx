@@ -10,7 +10,7 @@ export default function AboutMe(props) {
     description: "Full Stack Web Developer with background in MERN, Python, C#, REACT, with a strong ability to work with large scale projects and build applications with utmost efficiency.",
     highlights:{
       bullets : [
-        "Full Stack Web Developer ( Front-end & Back-end )",
+        "Full Stack Web Developer",
         "React Developer",
         "Python Developer",
         "C# Developer",

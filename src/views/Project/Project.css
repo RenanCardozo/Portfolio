@@ -22,8 +22,8 @@
 .project-item {
   display: flex;
   align-items: center;
-  margin: 0 auto 2rem;
-  max-width: 800px;
+  margin: 0 auto 5rem;
+  max-width: 1000px;
 }
 
 .project-item.right {
@@ -32,7 +32,7 @@
 
 .project-image img {
   width: 400px;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   border-radius: 5px;
 }

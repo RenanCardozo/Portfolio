@@ -10,12 +10,12 @@
 .screen-sub-heading {
     letter-spacing: 3px;
     margin: 8px 0 18px 0;
-    font-size: 14px;
+    font-size: 18px;
     color: var(--black);
 }
 
 .screen-heading{
-    font-size: 32px;
+    font-size: 3rem;
     color: #1f2235;
     font-family: "Poppins Bold";
 }
