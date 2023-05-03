@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "“renan-cardozo.com",
+  "homepage": "“www.renan-cardozo.com",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
