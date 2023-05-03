@@ -1,0 +1,7 @@
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 670px;
+    background-color: #161F38;
+}
