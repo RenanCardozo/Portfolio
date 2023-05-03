@@ -3,23 +3,27 @@ import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
 import './AboutMe.css'
 import Skills from '../Skills/Skills';
 
+
+
+
+const SCREEN_CONSTANTS = {
+  description:
+    "Full Stack Web Developer with background in MERN, Python, C#, REACT, with a strong ability to work with large scale projects and build applications with utmost efficiency.",
+  highlights: {
+    bullets: [
+      "Full Stack Web Developer",
+      "React Developer",
+      "Python Developer",
+      "C# Developer",
+      "MERN Developer",
+      "Building REST API",
+    ],
+    heading: "Here are a few highlights:",
+  },
+};
+
 export default function AboutMe(props) {
   
-
-  const SCREEN_CONSTANTS ={
-    description: "Full Stack Web Developer with background in MERN, Python, C#, REACT, with a strong ability to work with large scale projects and build applications with utmost efficiency.",
-    highlights:{
-      bullets : [
-        "Full Stack Web Developer",
-        "React Developer",
-        "Python Developer",
-        "C# Developer",
-        "MERN Developer",
-        "Building REST API"
-      ],
-      heading: "Here are a few highlights:"
-    }
-  }
   const renderHighlights = () => {
     return (
       SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (

@@ -1,10 +1,15 @@
 import React, { useRef, useEffect } from "react";
 import Typed from "typed.js";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./Profile.css";
+
+const socialMediaLinks = {
+  linkedin: "https://www.linkedin.com/in/renancardozo/",
+  github: "https://github.com/RenanCardozo",
+};
 
 export default function Profile() {
   const typedJSRef = useRef(null);
-
 
   useEffect(() => {
     const typedJS = new Typed(typedJSRef.current, {
@@ -24,18 +29,18 @@ export default function Profile() {
 
     return () => typedJS.destroy();
   }, []);
+
   return (
     <div className="profile-container">
-
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://www.linkedin.com/in/renancardozo/">
-                <i class="bi bi-linkedin"></i>
+              <a href={socialMediaLinks.linkedin}>
+                <FaLinkedin className="icon" />
               </a>
-              <a href="https://github.com/RenanCardozo">
-                <i class="bi bi-github"></i>
+              <a href={socialMediaLinks.github}>
+                <FaGithub className="icon" />
               </a>
             </div>
           </div>

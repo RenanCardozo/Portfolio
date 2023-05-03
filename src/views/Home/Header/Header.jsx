@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   TOTAL_SCREENS,
   GET_SCREEN_INDEX,
@@ -12,14 +12,21 @@ export default function Header() {
   const [selectedScreen, setSelectedScreen] = useState(0);
   const [showHeaderOptions, setShowHeaderOptions] = useState(false);
 
-  const updateCurrentScreen = (currentScreen) => {
-    if (!currentScreen || !currentScreen.screenInView) return;
+  useEffect(() => {
+    const updateCurrentScreen = (currentScreen) => {
+      if (!currentScreen || !currentScreen.screenInView) return;
 
-    let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView);
-    if (screenIndex < 0) return;
-  };
-  let currentScreenSubscription =
-    ScrollService.currentScreenBroadCaster.subscribe(updateCurrentScreen);
+      let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView);
+      if (screenIndex < 0) return;
+    };
+
+    const currentScreenSubscription =
+      ScrollService.currentScreenBroadCaster.subscribe(updateCurrentScreen);
+
+    return () => {
+      currentScreenSubscription.unsubscribe();
+    };
+  }, []);
 
   const getHeaderOptions = () => {
     return TOTAL_SCREENS.map((Screen, i) => (
@@ -42,22 +49,21 @@ export default function Header() {
     return classes;
   };
 
-  const switchScreen = (index, screen) => {
-    let screenComponent = document.getElementById(screen.screen_name);
-    if (!screenComponent) return;
+const switchScreen = (index, screen) => {
+  let screenComponent = document.getElementById(screen.screen_name);
+  if (!screenComponent) return;
 
-    screenComponent.scrollIntoView({ behavior: "smooth" });
-    setSelectedScreen(index);
-    setShowHeaderOptions(false);
-  };
+  screenComponent.scrollIntoView({ behavior: "smooth" });
+  setSelectedScreen(index);
+  setShowHeaderOptions(false);
+};
+
   return (
-    // rome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
     <div
       className="header-container"
       onClick={() => setShowHeaderOptions(!showHeaderOptions)}
     >
       <div className="header-parent">
-        {/* rome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
         <div
           className="header-hamburger"
           onClick={() => setShowHeaderOptions(!showHeaderOptions)}

@@ -58,8 +58,8 @@ function Project(props) {
             key={project.id}
             className={`project-item ${index % 2 === 0 ? "left" : "right"}`}
           >
-            <div className="project-image">
-              <img src={project.image} alt={project.title} />
+            <div className="project-image" >
+              <img src={project.image} alt={project.title} loading="lazy" />
             </div>
             <div className="project-text">
               <h3 className="project-title">{project.title}</h3>
